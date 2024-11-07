@@ -1,6 +1,8 @@
 from app import db
 
 class GastoComun(db.Model):
+    __tablename__ = 'gastos_comunes'
+
     id = db.Column(db.Integer, primary_key=True)
     monto = db.Column(db.Float, nullable=False)
     periodo = db.Column(db.String(7), nullable=False)  # Formato 'YYYY-MM'

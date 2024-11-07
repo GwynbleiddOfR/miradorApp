@@ -24,6 +24,10 @@ def create_app():
 
     with app.app_context():
         from models import DepartamentoModel, GastoComunModel
-        db.create_all()
+        try:
+            db.create_all()
+            print("Base de datos creada exitosamente")
+        except Exception as e:
+            print(f"Error al crear la base de datos: {e}")
 
     return app
