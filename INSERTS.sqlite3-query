@@ -1,0 +1,12 @@
+-- database: ./instance/gastos_comunes.db
+
+SELECT * FROM departamentos;
+
+INSERT INTO departamentos
+VALUES (1, 100);
+
+INSERT INTO departamentos
+VALUES (2, 200);
+
+INSERT INTO departamentos
+VALUES (3, 300);
