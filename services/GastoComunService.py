@@ -32,7 +32,7 @@ class GastoComunService:
             gasto.fecha_pago = fecha_pago
             db.session.commit()
             return {
-                "mensaje": "Pago registrado exitosamente",
+                "mensaje": f"El departamento {departamento_numero} cancela el mes {periodo.split('-')[1]} del {periodo.split('-')[0]} el {fecha_pago.strftime('%d de %B del %Y')}.",
                 "detalle": gasto.serialize()
             }
         else:
