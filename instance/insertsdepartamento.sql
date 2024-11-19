@@ -6,10 +6,10 @@ INSERT INTO departamentos (id, numero)
 VALUES (2, 200);
 
 INSERT INTO departamentos (id, numero)
-VALUES (3, 300)
+VALUES (3, 300);
 
 INSERT INTO departamentos (id, numero)
-VALUES (4, 400)
+VALUES (4, 400);
 
 INSERT INTO departamentos (id, numero)
-VALUES (5, 500)
+VALUES (5, 500);
